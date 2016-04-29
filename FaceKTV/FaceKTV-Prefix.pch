@@ -1,0 +1,49 @@
+
+//
+//  FaceKTV-Prefix.pch
+//  FaceKTV
+//
+//  Created by PENG BAI on 16/2/17.
+//  Copyright © 2016年 bp1010. All rights reserved.
+//
+
+#ifndef FaceKTV_Prefix_pch
+#define FaceKTV_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#define WEAKSELF(weakSelf) __weak __typeof(&*self)weakSelf = self
+#define BUNDERID [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+
+
+// 宏定义NSLog函数
+#ifdef DEBUG
+#define Log(...) NSLog(__VA_ARGS__)
+#else
+#define Log(...) /* */
+#endif
+
+// 屏幕宽高
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+// 颜色
+#define RGBColorAndAlpha(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+
+
+
+
+
+
+#endif
+
+#endif /* FaceKTV_Prefix_pch */

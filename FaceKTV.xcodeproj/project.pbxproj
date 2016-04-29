@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D27E80C1C71BD4200473674 /* ANTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D27E80B1C71BD4200473674 /* ANTabBarItem.m */; };
+		7D89CF9D1C717501008E0E2D /* ANTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89CF9C1C717501008E0E2D /* ANTabBarController.m */; };
+		7D89CFA11C717A59008E0E2D /* ANHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89CFA01C717A59008E0E2D /* ANHomeViewController.m */; };
+		7DBAE2271C61D7CF00D11882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBAE2261C61D7CF00D11882 /* main.m */; };
+		7DBAE22A1C61D7CF00D11882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBAE2291C61D7CF00D11882 /* AppDelegate.m */; };
+		7DBAE2301C61D7CF00D11882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBAE22E1C61D7CF00D11882 /* Main.storyboard */; };
+		7DBAE2321C61D7CF00D11882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBAE2311C61D7CF00D11882 /* Assets.xcassets */; };
+		7DBAE2351C61D7CF00D11882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBAE2331C61D7CF00D11882 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D27E80A1C71BD4200473674 /* ANTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTabBarItem.h; sourceTree = "<group>"; };
+		7D27E80B1C71BD4200473674 /* ANTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTabBarItem.m; sourceTree = "<group>"; };
+		7D76B4EE1C74490C00E5D5AC /* FaceKTV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceKTV-Prefix.pch"; sourceTree = "<group>"; };
+		7D89CF9B1C717501008E0E2D /* ANTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTabBarController.h; sourceTree = "<group>"; };
+		7D89CF9C1C717501008E0E2D /* ANTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTabBarController.m; sourceTree = "<group>"; };
+		7D89CF9F1C717A59008E0E2D /* ANHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHomeViewController.h; sourceTree = "<group>"; };
+		7D89CFA01C717A59008E0E2D /* ANHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHomeViewController.m; sourceTree = "<group>"; };
+		7DBAE2221C61D7CF00D11882 /* FaceKTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceKTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBAE2261C61D7CF00D11882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DBAE2281C61D7CF00D11882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DBAE2291C61D7CF00D11882 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DBAE22F1C61D7CF00D11882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DBAE2311C61D7CF00D11882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DBAE2341C61D7CF00D11882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DBAE2361C61D7CF00D11882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DBAE21F1C61D7CF00D11882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D89CF9A1C7174C0008E0E2D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7D89CF9B1C717501008E0E2D /* ANTabBarController.h */,
+				7D89CF9C1C717501008E0E2D /* ANTabBarController.m */,
+				7D27E80A1C71BD4200473674 /* ANTabBarItem.h */,
+				7D27E80B1C71BD4200473674 /* ANTabBarItem.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		7D89CF9E1C717A41008E0E2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7D89CF9F1C717A59008E0E2D /* ANHomeViewController.h */,
+				7D89CFA01C717A59008E0E2D /* ANHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7DBAE2191C61D7CE00D11882 = {
+			isa = PBXGroup;
+			children = (
+				7DBAE2241C61D7CF00D11882 /* FaceKTV */,
+				7DBAE2231C61D7CF00D11882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBAE2231C61D7CF00D11882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DBAE2221C61D7CF00D11882 /* FaceKTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DBAE2241C61D7CF00D11882 /* FaceKTV */ = {
+			isa = PBXGroup;
+			children = (
+				7DBAE23C1C61D7FC00D11882 /* Class */,
+				7DBAE2281C61D7CF00D11882 /* AppDelegate.h */,
+				7DBAE2291C61D7CF00D11882 /* AppDelegate.m */,
+				7DBAE22E1C61D7CF00D11882 /* Main.storyboard */,
+				7DBAE2311C61D7CF00D11882 /* Assets.xcassets */,
+				7DBAE2331C61D7CF00D11882 /* LaunchScreen.storyboard */,
+				7DBAE2361C61D7CF00D11882 /* Info.plist */,
+				7DBAE2251C61D7CF00D11882 /* Supporting Files */,
+			);
+			path = FaceKTV;
+			sourceTree = "<group>";
+		};
+		7DBAE2251C61D7CF00D11882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DBAE2261C61D7CF00D11882 /* main.m */,
+				7D76B4EE1C74490C00E5D5AC /* FaceKTV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DBAE23C1C61D7FC00D11882 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7D89CF9E1C717A41008E0E2D /* Home */,
+				7D89CF9A1C7174C0008E0E2D /* Main */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DBAE2211C61D7CF00D11882 /* FaceKTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBAE2391C61D7CF00D11882 /* Build configuration list for PBXNativeTarget "FaceKTV" */;
+			buildPhases = (
+				7DBAE21E1C61D7CF00D11882 /* Sources */,
+				7DBAE21F1C61D7CF00D11882 /* Frameworks */,
+				7DBAE2201C61D7CF00D11882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceKTV;
+			productName = FaceKTV;
+			productReference = 7DBAE2221C61D7CF00D11882 /* FaceKTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DBAE21A1C61D7CE00D11882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bp1010;
+				TargetAttributes = {
+					7DBAE2211C61D7CF00D11882 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7DBAE21D1C61D7CE00D11882 /* Build configuration list for PBXProject "FaceKTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DBAE2191C61D7CE00D11882;
+			productRefGroup = 7DBAE2231C61D7CF00D11882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DBAE2211C61D7CF00D11882 /* FaceKTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DBAE2201C61D7CF00D11882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBAE2351C61D7CF00D11882 /* LaunchScreen.storyboard in Resources */,
+				7DBAE2321C61D7CF00D11882 /* Assets.xcassets in Resources */,
+				7DBAE2301C61D7CF00D11882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DBAE21E1C61D7CF00D11882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D89CFA11C717A59008E0E2D /* ANHomeViewController.m in Sources */,
+				7D27E80C1C71BD4200473674 /* ANTabBarItem.m in Sources */,
+				7DBAE22A1C61D7CF00D11882 /* AppDelegate.m in Sources */,
+				7D89CF9D1C717501008E0E2D /* ANTabBarController.m in Sources */,
+				7DBAE2271C61D7CF00D11882 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DBAE22E1C61D7CF00D11882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DBAE22F1C61D7CF00D11882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DBAE2331C61D7CF00D11882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DBAE2341C61D7CF00D11882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DBAE2371C61D7CF00D11882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DBAE2381C61D7CF00D11882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DBAE23A1C61D7CF00D11882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaceKTV/FaceKTV-Prefix.pch";
+				INFOPLIST_FILE = FaceKTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp1010.FaceKTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DBAE23B1C61D7CF00D11882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaceKTV/FaceKTV-Prefix.pch";
+				INFOPLIST_FILE = FaceKTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp1010.FaceKTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DBAE21D1C61D7CE00D11882 /* Build configuration list for PBXProject "FaceKTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBAE2371C61D7CF00D11882 /* Debug */,
+				7DBAE2381C61D7CF00D11882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DBAE2391C61D7CF00D11882 /* Build configuration list for PBXNativeTarget "FaceKTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBAE23A1C61D7CF00D11882 /* Debug */,
+				7DBAE23B1C61D7CF00D11882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DBAE21A1C61D7CE00D11882 /* Project object */;
+}
